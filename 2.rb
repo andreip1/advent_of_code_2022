@@ -2525,7 +2525,6 @@ def evaluate_score(pair)
     end
 end
 
-byebug
 input.split("\n").map {|pair| pair.split(" ")}.each do |pair|
     total_score += evaluate_score(pair)
 end
