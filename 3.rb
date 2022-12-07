@@ -374,5 +374,4 @@ input.split("\n").each_slice(3) do |backpacks|
     counter += letters[find_duplicate(backpacks).join]
 end
 
-
 puts counter

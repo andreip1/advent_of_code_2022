@@ -2243,10 +2243,6 @@ input = "3427
 5862
 2002
 1870"
-# map over the input
-# if the iterator is a number, keep adding into a temp number variable
-# if the iterator is an empty string, then push the temp number variable in another array
-# and set the temp number to 0
 
 final_array = []
 split_input = input.split("\n")
